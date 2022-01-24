@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="fm01pn" name="Delay3000" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginFormats="buildVST3">
+  <MAINGROUP id="Sfm5S1" name="Delay3000">
+    <GROUP id="{23D36AE6-10EC-0516-761E-D8B859986009}" name="Resources">
+      <FILE id="EYh1z7" name="Montserrat-BlackItalic.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-BlackItalic.ttf"/>
+      <FILE id="VLFepX" name="Montserrat-Bold.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-Bold.ttf"/>
+      <FILE id="ePEzma" name="Montserrat-BoldItalic.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-BoldItalic.ttf"/>
+      <FILE id="pixmcD" name="Montserrat-ExtraBold.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-ExtraBold.ttf"/>
+      <FILE id="aiXwKY" name="Montserrat-ExtraBoldItalic.ttf" compile="0"
+            resource="1" file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-ExtraBoldItalic.ttf"/>
+      <FILE id="G0EII4" name="Montserrat-ExtraLight.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-ExtraLight.ttf"/>
+      <FILE id="KkGV8a" name="Montserrat-ExtraLightItalic.ttf" compile="0"
+            resource="1" file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-ExtraLightItalic.ttf"/>
+      <FILE id="gzlEt7" name="Montserrat-Italic.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-Italic.ttf"/>
+      <FILE id="Wsv842" name="Montserrat-Light.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-Light.ttf"/>
+      <FILE id="TcvLYL" name="Montserrat-LightItalic.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-LightItalic.ttf"/>
+      <FILE id="ge69LE" name="Montserrat-Medium.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-Medium.ttf"/>
+      <FILE id="yP6bm1" name="Montserrat-MediumItalic.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-MediumItalic.ttf"/>
+      <FILE id="O9Aoqf" name="Montserrat-Regular.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-Regular.ttf"/>
+      <FILE id="T3lVFM" name="Montserrat-SemiBold.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-SemiBold.ttf"/>
+      <FILE id="UYVJ8F" name="Montserrat-SemiBoldItalic.ttf" compile="0"
+            resource="1" file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-SemiBoldItalic.ttf"/>
+      <FILE id="mmoxW8" name="Montserrat-Thin.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-Thin.ttf"/>
+      <FILE id="lO7THd" name="Montserrat-ThinItalic.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-ThinItalic.ttf"/>
+      <FILE id="rTkebe" name="Montserrat-Black.ttf" compile="0" resource="1"
+            file="../../../Users/andrz/Downloads/Montserrat/static/Montserrat-Black.ttf"/>
+      <FILE id="NlqPo2" name="bcg2.png" compile="0" resource="1" file="../../../Users/andrz/Downloads/bcg2.png"/>
+    </GROUP>
+    <GROUP id="{C8889E6D-46AB-BDC5-6666-4A94798519AA}" name="Source">
+      <FILE id="I8WJie" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="SXcpeS" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="GAn4rc" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="JJvZjy" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Delay3000"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Delay3000"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
